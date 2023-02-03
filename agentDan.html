@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-------------------- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways ---------------------------------->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Cabot cruises site">
+    <meta name="author" content="Andrew Kester">
+
+    <link rel="stylesheet" href="css/styles.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/ely1kpo.css">
+
+    <script src="https://kit.fontawesome.com/e5ff2f4c45.js" crossorigin="anonymous"></script>
+
+    <title>Cabot Cruises</title>
+  </head>
+  <body>
+    <div id="bodyWrapper">
+
+      <!---------------------------------------------------------------------- header section --------------------------------------------------------------------------->
+      <div id="headerWrapper">
+        <header class="clearfix">
+          <figure class="logo">
+            <img src="images/logo/logo_default2.png" alt="cabot logo" srcset="images/logo/logo1.png 1x, images/logo/logo2.png 2x, images/logo/logo3.png 3x">
+          </figure>
+
+          <a href="tel:18005551234">1-800-555-1234</a>
+        </header>
+      </div>
+        <!---------------------------------------------------------------------- nav section --------------------------------------------------------------------------->
+        <div id="navWrapper">
+          <nav>
+
+          <button id="hamburgerMenu">
+            <span class="hamburger">&#9776;</span>
+            <span class="x hidden">&otimes;</span>
+          </button>
+
+          <!-- <form href="#" method="GET"> 
+            <input type="search" name="text" class="search" placeholder="search...">
+            <input type="image" name="submit" class="submit" src="./images/search_icon_12.svg">
+          </form> -->
+
+          <form method="GET" id="searchForm"> 
+            <input type="search" name="text" class="search" placeholder="search...">
+            <button  class="submit" type="submit"><img src="images/search_icon_12.svg" alt="Search"></button>  
+          </form> 
+          
+
+          <div class="list hidden">
+            <ul id="primaryNav">
+              <li class="menuList"><a href="index.html">Home</a>
+              <li class="cruise"><a href="cruises.html">Cruises</a></li> 
+              <li class="agent"><a href="#">Agents<span class="arrow">&#9660;</span></a>
+                <ul class="secondList hidden">
+                  <li class="child"><a href="agentWendy.html">Agent Wendy</a></li>
+                  <li class="secondChild"><a href="agentDan.html">Agent Dan</a></li>
+                </ul>
+              </li> 
+              <li class="book"><a href="book.html">Book a Cruise</a></li> 
+  
+              </ul>
+          </div>
+
+          </nav>
+        </div>
+
+
+  <!---------------------------------------------------------------------- main section --------------------------------------------------------------------------->
+  <div id="mainWrapper">
+    <main>
+
+      <div id="agentSection">
+        <h1>Agent-Dan Evans</h1>
+    
+        <img src="images/Dan.webp" alt="Woman Travel Agent">
+    
+        <h4>Phone:</h4>
+        <p>1-800-555-1234 ext. 2</p>
+    
+        <h4>Working:</h4>
+        <p>Monday-Friday</p>
+    
+        <h4>Office Hours:</h4>
+        <p>2:00pm-10:00pm</p>
+    
+        <h4>Destination Specialization</h4>
+        <p class="sp1">Recommended Countries: South Pacific, Asia, Europe </p>
+        <p>Other Recommendations: Iceland, Spain</p>
+    
+        <h4>Biography:</h4>
+        <p>In 2015 I went to Jamaica for a friend's wedding and instantly fell in love with travel. I returned from that trip with a desire to continue my exploration and applied for 
+            a job with Liberty Travel. I worked for Cabot Cruises from 2015 through 2017 and spent a lot of time going to all-inclusive destinations such as Mexico, Dominican Republic, 
+            Jamaica, and more. Later I gained experience working in Flight Centre's corporate headquarters selling tours and then GOGO Vacations. During this time, I had the chance to 
+            go to Italy and it was one of my most memorable vacations! In 2021 I created Ahearn Travel Group, LLC and partnered up with Cabot Cruises. Throughout my travel career I have 
+            been to over 17 different countries. I have a passion for visiting unique destinations and exploring all the world has to offer. And I can't wait to help share my knowledge 
+            with others to better their vacation experiences.</p>
+    
+        <h4 class="reviews">Customer Reviews:</h4>
+    
+        <div>
+          <p class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; 5.0</p>
+          <i>"Dan Evans is a top notch agent. He has helped us with trips all over the world and has been knowledgeable and supper efficient."</i>
+          <p>-Walter K.</p>
+        </div>
+    
+        <div>
+          <p class="rating">&#9733;&#9733;&#9733;&#9733; 5.0</p>
+          <i>"Dan got me the information I needed quickly, yes I would recommend him and will continue to use him."</i>
+          <p>-Edward B.</p>
+        </div>
+    
+        <div>
+          <p class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; 5.0</p>
+          <i>"Dan was very helpful and responsive."</i>
+          <p>-Christina L.</p>
+        </div>
+        
+        
+    </div><!-- end of agent section -->
+
+    </main>
+</div>  <!-- end of main wrapper -->
+        <!---------------------------------------------------------------------- footer section --------------------------------------------------------------------------->
+    <div id="footerWrapper"> 
+
+        <footer>
+          <div id="footerDetails">
+  
+            <div id="contactInfo">
+              <h2>Contact Us</h2>
+              <h3>Cabot Cruises</h3>
+  
+              <p><a href="https://goo.gl/maps/vzutyJZQHnP7JAuy9" target="_blank">23 South Main St. Suite 16 <br> lexington, VA 24450</a></p>
+  
+              <h2>Phone:</h2>
+              <a href="tel:18005551234">1-800-555-1234</a>
+  
+              <h2>Hours of Operation:</h2>
+              <p>Monday - Friday 9am - 4pm</p>
+            </div>
+  
+            <div id="newsLetter">
+              <h2>News Letter</h2>
+  
+              <p>Subscribe to our email list and stay up-to-date with our 
+                hottest offers and latest specials</p>
+  
+              <form method="get"> 
+                <input type="email" class="email" placeholder="jondoe@gmail.com" required>
+                <input  class="submit" type="submit" value="Subscribe">
+              </form> 
+            </div>
+  
+            <div id="aboutUs">
+              <h2>Why Cabot Cruises</h2>
+  
+              <p class="part1">Cabot Cruises is a travel agency providing the best cruise 
+                deals on our online travel website. We can help you with all 
+                inclusive vacaMons including discounted cruises.</p>
+  
+              <p>We do not sell travel to residents of Delaware, Iowa, 
+                Florida, Hawaii and Washington state because those states 
+                are just wierd. If you are a resident of one of these states, 
+                call your congressman and tell them to change the 
+                regulaMons.</p>
+            </div>
+  
+          </div> <!-- End of foot details -->
+          
+        </footer>
+  
+      </div> <!-- End of footer wrapper -->
+  
+      <!-- soical media links, and copywrite -->
+      <div id="linksWrapper">
+        <div id="socialMedia">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-youtube"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-square-pinterest"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+        </div>
+  
+        <p>&copy; 2022 &bull; Andrew Kester &bull; <a href="https://github.com/Andyrooooo">Github</a></p>
+      </div>
+  
+      </div> <!-- End of body wrapper -->
+  
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="js/main.js"></script>
+  
+        <!-- JSON-LD data -->
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "image":"https://voluble-alfajores-fd0f68.netlify.app/images/logo/logo2.png",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Lexington",
+              "addressRegion": "VA",
+              "postalCode": "24450",
+              "streetAddress": "23 South Main St. Suite 16"
+            },
+            "name": "Cabot Cruises",
+            "openingHours": [
+              "Mo-Sa 8:00-17:30",
+              "Su 10:00-14:00"
+            ],
+            "priceRange": "Please Call",
+            "telephone": "1-800-555-1234",
+            "url": "https://voluble-alfajores-fd0f68.netlify.app/"
+          }
+          </script>
+  
+    </body>
+  </html>
+  
