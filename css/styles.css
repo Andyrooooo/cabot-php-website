@@ -678,6 +678,18 @@ div#confirmSection h3 {
   color: #006A66;
 }
 
+/* --------------------------------------------------------------------- main form submission section -------------------------------------------------------------------- */
+div#ThankYouSection h3 {
+  display: block;
+  border: solid 2px #006A66;
+  text-align: center;
+  padding: 1rem 0;
+  margin: 4rem 1%;
+  border-radius: 5px;
+  color: #006A66;
+  font-family: roboto;
+}
+
 /* ------------------------------------------------------------------------------- footer section ---------------------------------------------------------------------------- */
 div#footerWrapper {
   background-color: #006A66;

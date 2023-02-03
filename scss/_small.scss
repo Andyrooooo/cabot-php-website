@@ -417,9 +417,21 @@ div#confirmSection {
     }
 }
 
+/* --------------------------------------------------------------------- main form submission section -------------------------------------------------------------------- */
 
 
-
+div#ThankYouSection {
+    h3 {
+        display: block;
+        border: solid 2px $colorOne;
+        text-align: center;
+        padding: 1rem 0;
+        margin: 4rem 1%;
+        border-radius: 5px;
+        color: $colorOne;
+        font-family: roboto;
+    }
+}
 
 
 
